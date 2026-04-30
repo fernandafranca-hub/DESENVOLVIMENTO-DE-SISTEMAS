@@ -1,0 +1,20 @@
+.fundo {
+    background-color: lightblue;
+}
+
+.paragrafo01 {
+ background-color: lightgreen;   
+}
+
+.sec01 {
+    background-image: url(imagens/imagem\ 01.jpg);
+    width: 300px;
+    height: 500px;  
+}
+
+.sec02 {
+    background-image: url(imagens/imagem\ 02.jpg);
+    width: 300px;
+    height: 500px;
+    background-repeat: repeat-y;
+}
