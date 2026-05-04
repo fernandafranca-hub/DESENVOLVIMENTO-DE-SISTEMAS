@@ -9,9 +9,13 @@
 .sec01 {
     background-image: url(imagens/imagem\ 01.jpg);
     width: 300px;
+<<<<<<< HEAD
     height: 500px; 
     background-repeat: repeat;
     background-attachment: fixed; 
+=======
+    height: 500px;  
+>>>>>>> a4930b62eb26a2df7be6694adf3b7fa4cc4c5d2d
 }
 
 .sec02 {
@@ -19,6 +23,7 @@
     width: 300px;
     height: 500px;
     background-repeat: repeat-y;
+<<<<<<< HEAD
 }
 .sec03 {
     background-image: url(imagens/imagem\ 03.jpg);
@@ -34,4 +39,6 @@
     height: 500px; 
     background-repeat: no-repeat;
     background-attachment: sc;
+=======
+>>>>>>> a4930b62eb26a2df7be6694adf3b7fa4cc4c5d2d
 }
