@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+/* Linha do topo */
+.topo1 {
+    width: 48%;
+    background-color: lightblue;
+    color: black;
+    padding: 5px;
+}
+
+.topo2 {
+    width: 48%;
+    background-color: darkblue;
+}
+
+td {
+    padding: 5px;
+}
+
+/* Inputs organizados */
+input, select {
+    margin: 2px;
+}

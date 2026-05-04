@@ -1,0 +1,83 @@
+body {   
+    background-color: white;
+    font-family: Arial;
+    font-size: 14px;
+    color: green;
+}
+
+.dados-cadastro {
+    width: 720px;
+    margin: 0 auto;
+    background-image: url(imagens/1.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+fieldset {
+    border: 1px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.dados {
+    width: 48%; 
+    float: left;
+    margin: 10px 1%;
+    background-image: url(imagens/2.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.localizacao {
+    width: 48%;
+    background-image: url(imagens/3.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;    
+    float: left;
+    margin: 10px 1%;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.idade {
+    column-count: 2;
+    background-image: url(imagens/4.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;   
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.esportes {
+    background-image: url(imagens/5.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;   
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.comentario {    
+    background-image: url(imagens/6.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.dados-cadastro::after {
+    content: "";
+    display: block;
+    clear: both;
+}
